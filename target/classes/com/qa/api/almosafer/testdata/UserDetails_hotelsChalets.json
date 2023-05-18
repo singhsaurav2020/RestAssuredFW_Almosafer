@@ -1,0 +1,13 @@
+{
+  "checkIn": "2023-06-01",
+  "checkOut": "2023-06-02",
+  "roomsInfo": [
+    {
+      "adultsCount": 1,
+      "kidsAges": []
+    }
+  ],
+  "searchInfo": null,
+  "crossSellDetail": null,
+  "query": "Chalets%2B"
+}

@@ -1,0 +1,117 @@
+{
+	"next": {
+		"nid": "1684353056925613330",
+		"get": [
+			{
+				"cid": "ade3a218",
+				"info": {
+					"uid": "default",
+					"code": "ONE",
+					"chnr": "XY"
+				}
+			},
+			{
+				"cid": "6cedbb66",
+				"info": {
+					"uid": "default",
+					"code": "ONE",
+					"chnr": "F3"
+				}
+			},
+			{
+				"cid": "a798fd43",
+				"info": {
+					"uid": "default",
+					"code": "ONE",
+					"chnr": "E5"
+				}
+			},
+			{
+				"cid": "8b3602ff",
+				"info": {
+					"uid": "default",
+					"code": "ONE",
+					"chnr": "G9"
+				}
+			},
+			{
+				"cid": "476015",
+				"info": {
+					"uid": "cont-amd-sau",
+					"code": "AMD",
+					"chnr": 0
+				}
+			},
+			{
+				"cid": "8579405c",
+				"info": {
+					"uid": "cont-tf-sau",
+					"code": "TFN",
+					"chnr": "FZ"
+				}
+			},
+			{
+				"cid": "302b1f4d",
+				"info": {
+					"uid": "cont-tf-sau",
+					"code": "TFN",
+					"chnr": "J9"
+				}
+			},
+			{
+				"cid": "3db713d",
+				"info": {
+					"uid": "cont-tf-sau",
+					"code": "TFN",
+					"chnr": "OV"
+				}
+			},
+			{
+				"cid": "d347afb9",
+				"info": {
+					"uid": "cont-tf-sau",
+					"code": "TFN",
+					"chnr": "W6"
+				}
+			}
+		],
+		"let": [],
+		"hashedKey": "18458620702c1694d7586cca9b7ea4e1"
+	},
+	"request": {
+		"searchType": "Roundtrip",
+		"isRoundTrip": true,
+		"leg": [
+			{
+				"index": 0,
+				"originId": "RUH",
+				"destinationId": "JED",
+				"departure": "2023-07-23",
+				"nearByOriginId": false,
+				"nearByDestinationId": false,
+				"preferredCabin": "Economy",
+				"nonstop": false
+			},
+			{
+				"index": 1,
+				"originId": "JED",
+				"destinationId": "RUH",
+				"departure": "2023-07-24",
+				"nearByOriginId": false,
+				"nearByDestinationId": false,
+				"preferredCabin": "Economy",
+				"nonstop": false
+			}
+		],
+		"preferredAirline": [],
+		"pax": {
+			"adult": 1,
+			"totalSeats": 1,
+			"child": 0,
+			"infant": 0
+		},
+		"query": "RUH-JED/2023-07-23/2023-07-24/Economy/1Adult",
+		"ticketingType": "multi",
+		"cabin": "Economy"
+	}
+}

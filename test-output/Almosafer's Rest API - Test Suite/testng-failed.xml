@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Almosafer&#039;s Rest API - Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.api.almosafer.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Almosafer&#039;s Rest API - Regression Test(failed)">
+    <classes>
+      <class name="com.qa.api.almosafer.tests.CreateAlmosferUserDetailsTest">
+        <methods>
+          <include name="postAlmosaferAPI4"/>
+        </methods>
+      </class> <!-- com.qa.api.almosafer.tests.CreateAlmosferUserDetailsTest -->
+    </classes>
+  </test> <!-- Almosafer's Rest API - Regression Test(failed) -->
+</suite> <!-- Failed suite [Almosafer's Rest API - Test Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Almosafer's Rest API - Test Suite" verbose="1" parallel="tests"
+	thread-count="3">
+
+	<listeners>
+		<listener
+			class-name="com.qa.api.almosafer.listeners.ExtentReportListener" />
+	</listeners>
+
+	<test name="Almosafer's Rest API - Regression Test" parallel="classes"
+		thread-count="3">
+		<classes>
+			<class name="com.qa.api.almosafer.tests.getAlmosferApiTest" />
+			<class name="com.qa.api.almosafer.tests.CreateAlmosferUserDetailsTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
